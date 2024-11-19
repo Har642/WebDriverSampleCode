@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="classes">
+	
+	<test  name="MethodOneTest">
+
+		<classes>
+			<!--   <class name="testScripts.automationBookStore"/>
+      <class name="testScripts.IframeTest"/>
+      <class name="testScripts.DropDownTest"/>
+      <class name="testScripts.GoolePageSearchTest"/>
+      
+			<class name="parallelScripts.LocatorTest" />
+-->
+	<!--     <class name="testScripts.DoubleClick"/>
+      <class name="testScripts.ToolTip"/>
+      <class name="testScripts.FileUpload"/>
+      <class name="testScripts.AutoComplete"/>
+      <class name="testScripts.GooglePageTest"/>
+      <class name="testScripts.AlertTest"/>
+      <class name="testScripts.RadioBtnCheck"/>
+      <class name="testScripts.PageLoad"/>
+      <class name="testScripts.ExpWait"/>
+      <class name="testScripts.AlertsCheck"/>
+      <class name="testScripts.shadowDom"/>
+      <class name="testScripts.WindowHandles"/>
+      <class name="testScripts.MouseActionsTest"/> 
+     -->
+      <class name="parallelScripts.SampleTwoParallelTest"/>
+     
+      <class name="parallelScripts.SampleOne"/>
+	<!--  <class name="parallelScripts.SampleThree"/>
+	  -->
+	
+		</classes>
+
+	</test> <!--
+	MethodOneTest -->
+</suite> <!--
+Suite -->
